@@ -1,0 +1,9 @@
+extractor:
+  sonar:
+    authorization: YWRtaW46VGVzdEBfMQ==
+    baseUrl: http://localhost:9000
+    issuesSearchUrl: /api/issues/search
+    extractionDirectory: c:/sonar-extraction/
+    extractIssues: false
+    extractHotspots: true
+    hotspotsSearchUrl: /api/hotspots/search
